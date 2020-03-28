@@ -173,7 +173,7 @@ class StretchyHeaderViewController: UIViewController {
         scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         
-        view.bringSubview(toFront: imageView)
+        view.bringSubviewToFront(imageView)
         
         scrollView.contentInset.top = imageView.frame.height
         scrollView.contentOffset.y = -imageView.frame.height
